@@ -1,4 +1,4 @@
-# generect-com
+# Generect
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,149 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-generect-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://generect.com/
+Generect provides a real-time B2B lead generation search engine designed for agencies, sales teams, and growth-focused businesses. It offers qualified, verified leads, enabling users to scale smarter, automate enrichment, and integrate lead data via APIs. The platform supports multiple use cases from SaaS to enterprise, delivering up-to-date contact information and a resource hub for developers.
+
+**Areas:** B2B · LeadGeneration · RealTimeData · API · SaaS
+
+## Generect on APIs.io
+
+Everything profiled for Generect is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/generect-com/](https://apis.io/providers/generect-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (13)
+
+- [Generect 1. Auth API](https://apis.io/apis/generect-com/generect-com-1-auth-api/) — Login and get user info
+- [Generect 10. Phone API](https://apis.io/apis/generect-com/generect-com-10-phone-api/) — Find phone numbers for leads.
+- [Generect 11. Webhooks API](https://apis.io/apis/generect-com/generect-com-11-webhooks-api/) — Register and manage async job notifications.
+- [Generect 2. Transactions API](https://apis.io/apis/generect-com/generect-com-2-transactions-api/) — List of latest transactions in your account
+- [Generect 3. Leads API](https://apis.io/apis/generect-com/generect-com-3-leads-api/) — Fetch information about leads by _link/name/ICP_.
+- [Generect 4. Companies API](https://apis.io/apis/generect-com/generect-com-4-companies-api/) — Fetch information about companies by link/name/ICP.
+- [Generect 5. Preview API](https://apis.io/apis/generect-com/generect-com-5-preview-api/) — Search masked database leads for preview and reveal workflows.
+- [Generect 6. Enrich API](https://apis.io/apis/generect-com/generect-com-6-enrich-api/) — Enrich leads and companies by internal or external identifiers.
+- [Generect 7. Email API](https://apis.io/apis/generect-com/generect-com-7-email-api/) — Find and validate email addresses.
+- [Generect 8. Accounts API](https://apis.io/apis/generect-com/generect-com-8-accounts-api/) — Account profile, usage, and transactions.
+- [Generect 9. Search API](https://apis.io/apis/generect-com/generect-com-9-search-api/) — Database and realtime lead, company, and company-lead search.
+- [Generect Auth API](https://apis.io/apis/generect-com/generect-com-auth-api/) — The Auth API from Generect — 1 operation(s) for auth.
+- [Generect Linked In API](https://apis.io/apis/generect-com/generect-com-linked-in-api/) — The Linked In API from Generect — 2 operation(s) for linked in.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Generect Com Webhooks](https://apis.io/asyncapis/generect-com/generect-com-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Generect Agentic Access](https://apis.io/agentic-access/generect-com/generect-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AccountTokenAnalyticsResponse](https://apis.io/schemas/generect-com/generect-com-account-token-analytics-response/)
+- [CompanyBulkEnrichRequest](https://apis.io/schemas/generect-com/generect-com-company-bulk-enrich-request/)
+- [DatabaseCompanySearchRequest](https://apis.io/schemas/generect-com/generect-com-database-company-search-request/)
+- [DatabaseLeadSearchRequest](https://apis.io/schemas/generect-com/generect-com-database-lead-search-request/)
+- [RealtimeCompanySearchRequest](https://apis.io/schemas/generect-com/generect-com-realtime-company-search-request/)
+- [RealtimeLeadSearchRequest](https://apis.io/schemas/generect-com/generect-com-realtime-lead-search-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Generect Com Context](https://apis.io/jsonld/generect-com/generect-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Generect API Rules](https://apis.io/rules/generect-com/generect-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Generect Authentication](https://apis.io/security/generect-com/generect-com-authentication/)
+- [Generect Domain Security](https://apis.io/security/generect-com/generect-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Generect Plans Pricing](https://apis.io/plans/generect-com/generect-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://generect.com/)
+- [Documentation](https://docs.generect.com/)
+- [Getting started](https://docs.generect.com/api-reference/quickstart)
+- [API reference](https://docs.generect.com/api-reference/introduction)
+- [Pricing](https://docs.generect.com/billing/pricing.md)
+- [Changelog](https://generect.com/release-notes)
+- [Blog](https://generect.com/blog)
+- [Terms of service](https://generect.com/terms)
+- [Privacy policy](https://generect.com/privacy)
+- [GitHub](https://github.com/generect)
+
+## API Evangelist rating
+
+**Kin Score 61.4** — strong · rubric 0.27.0 · scored 2026-11-09
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 67.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 28.9 |
+| Developer ergonomics | 66.0 |
+| Access clarity | 50.5 |
+
+**Agent readiness 52.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/generect-com/](https://apis.io/providers/generect-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Generect: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/generect-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
